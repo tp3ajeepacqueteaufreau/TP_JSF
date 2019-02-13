@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="JSFHelloWorld">
+        
+    <wb-module deploy-name="YellowJacketJSF">
+                
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="JSFHelloWorld"/>
-        <property name="java-output-path" value="/JSFHelloWorld/build/classes"/>
+                
+        <property name="java-output-path" value="/YellowJacketJSF/build/classes"/>
+        <property name="context-root" value="YellowJacketJSF"/>
+            
     </wb-module>
+    
 </project-modules>
