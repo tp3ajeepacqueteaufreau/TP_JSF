@@ -10,6 +10,14 @@
 <body>
 <f:view>
 <h:outputText value="Hello World ! (in JSF !)" />
+<br />
+<h:selectOneListbox >
+	<f:selectItems value="#{YellowJacketBeanList.list}"/>
+</h:selectOneListbox> 
+ <h:graphicImage value = "https://img.imt.fr/signature-mail/logos/logo-imtld.png"/>
+ <h:commandButton />
+ <h:outputLabel />
+ 
 </f:view>
 </body>
 </html>
